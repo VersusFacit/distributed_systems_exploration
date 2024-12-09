@@ -4,3 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+tokio = { version = "1.42.0", features = ["full"]}
+warp = "0.3.7"
+tracing-subscriber = "0.3.19"
+tracing = "0.1.41"
+chrono = "0.4.38"
+reqwest = "0.12.9"
+
+[[bin]]
+name = "client"
+
