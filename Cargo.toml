@@ -10,6 +10,7 @@ tracing-subscriber = "0.3.19"
 tracing = "0.1.41"
 chrono = "0.4.38"
 reqwest = "0.12.9"
+serde_json = "1.0.133"
 
 [[bin]]
 name = "client"
